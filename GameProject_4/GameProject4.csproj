@@ -1,0 +1,94 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <PublishReadyToRun>false</PublishReadyToRun>
+    <TieredCompilation>false</TieredCompilation>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <ApplicationIcon>Icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="obj\Debug\netcoreapp3.1\.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" />
+    <Compile Include="obj\Debug\netcoreapp3.1\GameProject4.AssemblyInfo.cs" />
+    <Compile Include="obj\Debug\netcoreapp3.1\ParticleSystemExample.AssemblyInfo.cs" />
+    <Compile Include="obj\Release\netcoreapp3.1\.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" />
+    <Compile Include="obj\Release\netcoreapp3.1\ParticleSystemExample.AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\netcoreapp3.1\ParticleSystemExample.deps.json" />
+    <Content Include="bin\Debug\netcoreapp3.1\ParticleSystemExample.runtimeconfig.dev.json" />
+    <Content Include="bin\Debug\netcoreapp3.1\ParticleSystemExample.runtimeconfig.json" />
+    <Content Include="obj\Debug\netcoreapp3.1\ParticleSystemExample.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\GameProject4.csproj.nuget.dgspec.json" />
+    <Content Include="obj\ParticleSystemExample.csproj.nuget.dgspec.json" />
+    <Content Include="obj\project.assets.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <TrimmerRootAssembly Include="Microsoft.Xna.Framework.Content.ContentTypeReader" Visible="false" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="MonoGame.Framework.WindowsDX" Version="3.8.0.1641" />
+    <PackageReference Include="MonoGame.Content.Builder.Task" Version="3.8.0.1641" />
+  </ItemGroup>
+  <ItemGroup>
+    <MonoGameContentReference Include="Content\Content.mgcb" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\netcoreapp3.1\Content\circle.xnb" />
+    <None Include="bin\Debug\netcoreapp3.1\Content\drop.xnb" />
+    <None Include="bin\Debug\netcoreapp3.1\Content\explosion.xnb" />
+    <None Include="bin\Debug\netcoreapp3.1\Content\particle.xnb" />
+    <None Include="bin\Debug\netcoreapp3.1\Content\smoke.xnb" />
+    <None Include="bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.VisualBasic.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Microsoft.VisualBasic.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\MonoGame.Framework.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\ParticleSystemExample.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\ParticleSystemExample.exe" />
+    <None Include="bin\Debug\netcoreapp3.1\ParticleSystemExample.pdb" />
+    <None Include="bin\Debug\netcoreapp3.1\runtimes\debian-x64\native\libuv.so" />
+    <None Include="bin\Debug\netcoreapp3.1\runtimes\fedora-x64\native\libuv.so" />
+    <None Include="bin\Debug\netcoreapp3.1\runtimes\opensuse-x64\native\libuv.so" />
+    <None Include="bin\Debug\netcoreapp3.1\runtimes\osx\native\libuv.dylib" />
+    <None Include="bin\Debug\netcoreapp3.1\runtimes\rhel-x64\native\libuv.so" />
+    <None Include="bin\Debug\netcoreapp3.1\runtimes\win7-arm\native\libuv.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\runtimes\win7-x64\native\libuv.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\runtimes\win7-x86\native\libuv.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\SharpDX.Direct2D1.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\SharpDX.Direct3D11.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\SharpDX.Direct3D9.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\SharpDX.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\SharpDX.DXGI.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\SharpDX.Mathematics.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\SharpDX.MediaFoundation.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\SharpDX.XAudio2.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\SharpDX.XInput.dll" />
+    <None Include="bin\Debug\Release.zip" />
+    <None Include="obj\Debug\netcoreapp3.1\apphost.exe" />
+    <None Include="obj\Debug\netcoreapp3.1\GameProject4.AssemblyInfoInputs.cache" />
+    <None Include="obj\Debug\netcoreapp3.1\GameProject4.assets.cache" />
+    <None Include="obj\Debug\netcoreapp3.1\ParticleSystemExample.AssemblyInfoInputs.cache" />
+    <None Include="obj\Debug\netcoreapp3.1\ParticleSystemExample.assets.cache" />
+    <None Include="obj\Debug\netcoreapp3.1\ParticleSystemExample.csproj.CopyComplete" />
+    <None Include="obj\Debug\netcoreapp3.1\ParticleSystemExample.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Debug\netcoreapp3.1\ParticleSystemExample.csprojAssemblyReference.cache" />
+    <None Include="obj\Debug\netcoreapp3.1\ParticleSystemExample.dll" />
+    <None Include="obj\Debug\netcoreapp3.1\ParticleSystemExample.genruntimeconfig.cache" />
+    <None Include="obj\Debug\netcoreapp3.1\ParticleSystemExample.pdb" />
+    <None Include="obj\GameProject4.csproj.nuget.g.props" />
+    <None Include="obj\GameProject4.csproj.nuget.g.targets" />
+    <None Include="obj\ParticleSystemExample.csproj.nuget.g.props" />
+    <None Include="obj\ParticleSystemExample.csproj.nuget.g.targets" />
+    <None Include="obj\project.nuget.cache" />
+    <None Include="obj\Release\netcoreapp3.1\ParticleSystemExample.AssemblyInfoInputs.cache" />
+    <None Include="obj\Release\netcoreapp3.1\ParticleSystemExample.assets.cache" />
+    <None Include="ParticleSystemExample.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Release\netcoreapp3.1\" />
+  </ItemGroup>
+</Project>
